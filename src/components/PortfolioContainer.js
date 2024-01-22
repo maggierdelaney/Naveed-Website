@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './Nav';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
-import PhysicalTherapy from './pages/PhysicalTherapy';
+import Services from './pages/Services';
+import Schedule from './pages/Schedule';
 import Testimonials from './pages/Testimonials';
 import Media from './pages/Media';
 import About from './pages/About';
@@ -19,9 +20,12 @@ export default function PortfolioContainer() {
     if (currentPage === 'Blog') {
       return <Blog />;
     }
-    if (currentPage === 'PhysicalTherapy') {
-      return <PhysicalTherapy />;
+    if (currentPage === 'Services') {
+      return <Services />;
     }
+    if (currentPage === 'Schedule') {
+        return <Schedule />;
+      }
     if (currentPage === 'Testimonials') {
         return <Testimonials />;
     }

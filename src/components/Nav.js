@@ -11,8 +11,12 @@ function Nav({ currentPage, handlePageChange }) {
               className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link active" href="#physicaltherapy" onClick={() => handlePageChange('PhysicalTherapy')}
-              className={currentPage === 'PhysicalTherapy' ? 'nav-link active' : 'nav-link'}>Physical Therapy</a>
+            <a className="nav-link active" href="#services" onClick={() => handlePageChange('Services')}
+              className={currentPage === 'Services' ? 'nav-link active' : 'nav-link'}>Services</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" href="#schedule" onClick={() => handlePageChange('Schedule')}
+              className={currentPage === 'Schedule' ? 'nav-link active' : 'nav-link'}>Schedule</a>
           </li>
           <li className="nav-item">
             <a className="nav-link active" href="#testimonials" onClick={() => handlePageChange('Testimonials')}

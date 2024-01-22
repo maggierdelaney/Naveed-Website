@@ -4,7 +4,9 @@ import './style.css';
 export default function Testimonials() {
     return (
         <div>
-            <h1>Testimonials</h1>
+            <br></br>
+            <h1 className="title-font text-center">TESTIMONIALS</h1>
+            <br></br>
         </div>
     );
 }

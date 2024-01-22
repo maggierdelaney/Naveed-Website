@@ -4,7 +4,9 @@ import './style.css';
 export default function Medida() {
     return (
         <div>
-            <h1>Media</h1>
+            <br></br>
+            <h1 className="title-font text-center">MEDIA</h1>
+            <br></br>
         </div>
     );
 }
