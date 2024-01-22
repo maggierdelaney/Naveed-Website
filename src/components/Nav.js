@@ -23,6 +23,10 @@ function Nav({ currentPage, handlePageChange }) {
               className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}>Blog</a>
           </li>
           <li className="nav-item">
+            <a className="nav-link active" href="#media" onClick={() => handlePageChange('Media')}
+              className={currentPage === 'Media' ? 'nav-link active' : 'nav-link'}>Media</a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link active" href="#about" onClick={() => handlePageChange('About')}
               className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About Me</a>
           </li>

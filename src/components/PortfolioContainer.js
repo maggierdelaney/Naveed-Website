@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './Nav';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import PhysicalTherapy from './pages/PhysicalTherapy';
 import Testimonials from './pages/Testimonials';
+import Media from './pages/Media';
 import About from './pages/About';
 
 import './pages/style.css';
@@ -22,6 +24,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Testimonials') {
         return <Testimonials />;
+    }
+    if (currentPage === 'Media') {
+        return <Media />;
     }
     return <Home />;
   };
