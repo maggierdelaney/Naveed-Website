@@ -1,0 +1,42 @@
+/*font for the main text and banner*/
+.playfair-display-sc-regular {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  /*font and CSS (to increase space at top) for the main title, lives in html*/
+  body {
+    margin: 0;
+    padding: 0;
+}
+  
+  #playfair-display-sc-regular {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px; /* Adjust the value as needed */
+  }
+
+/*nav bar spacing*/
+#nav-flex {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px; /* Adjust the value as needed */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000; /* Adjust as needed */
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #007bff; /* Adjust as needed */
+}
